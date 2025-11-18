@@ -2,7 +2,8 @@
 int main(void){
 	while(1){
 		printf("hello\n");
-		while(1){
+		int i;
+		for(i = 0; i < 10; i++){
 			printf("hell\n");
 		}
 	}
